@@ -4,7 +4,7 @@
 
 **Locked result.** Across 31 participants and 140 matched repeat pairs, the adjusted estimate was **+1.62% alpha power per 10 rating units** (95% participant-bootstrap CI **−1.44% to +4.21%**, two-sided **p = 0.2624**). The result was inconclusive. Eye-artifact correction recovered 19 recordings and yielded a tighter estimate centered near zero.
 
-[Workflow](#workflow) · [Results](#results) · [Limitations](#limitations) · [Reproduce the project](docs/reproduce.md)
+[Research abstract](docs/abstract.md) · [Workflow](#workflow) · [Results](#results) · [Limitations](#limitations) · [Reproduce the project](docs/reproduce.md)
 
 ## Why match temperature?
 
