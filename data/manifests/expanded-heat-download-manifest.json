@@ -1,0 +1,696 @@
+{
+  "dataset": "ds008349",
+  "version": "2.0.1",
+  "tree_sha": "3252827891885aa1890e6b1531a2d3aeefeaa5fd",
+  "subjects": [
+    "055",
+    "058",
+    "061",
+    "062",
+    "065",
+    "083",
+    "109",
+    "111",
+    "113",
+    "121",
+    "127",
+    "131"
+  ],
+  "tasks": [
+    "thermalactive"
+  ],
+  "files": [
+    {
+      "path": "sub-055/eeg/sub-055_task-thermalactive_channels.tsv",
+      "bytes": 2105,
+      "snapshot_blob_sha": "d5f03905fb841a9a22fd3adbf28401b19241520b",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-055/eeg/sub-055_task-thermalactive_channels.tsv"
+    },
+    {
+      "path": "sub-055/eeg/sub-055_task-thermalactive_eeg.eeg",
+      "bytes": 140000280,
+      "snapshot_blob_sha": "60b55979189992d1985232ed4cf441543a7848da",
+      "sha256": "5d4616eecd7ec3384086be6e75bc26c2735ebb731a471a0e28fb8fc828fef281",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-055/eeg/sub-055_task-thermalactive_eeg.eeg"
+    },
+    {
+      "path": "sub-055/eeg/sub-055_task-thermalactive_eeg.json",
+      "bytes": 858,
+      "snapshot_blob_sha": "70302670533182ced7107c69c573d86f45c0a4e2",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-055/eeg/sub-055_task-thermalactive_eeg.json"
+    },
+    {
+      "path": "sub-055/eeg/sub-055_task-thermalactive_eeg.vhdr",
+      "bytes": 2507,
+      "snapshot_blob_sha": "dae68a2fa22f0bdb00cf6998155c5a0c523a0ab4",
+      "sha256": "01c95f2660849c64c489f1965292130e084226b60f042c796124b3942d7a941b",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-055/eeg/sub-055_task-thermalactive_eeg.vhdr"
+    },
+    {
+      "path": "sub-055/eeg/sub-055_task-thermalactive_eeg.vmrk",
+      "bytes": 873,
+      "snapshot_blob_sha": "3643fa4b60a7c16a4ef15d72a9715f2512a2e784",
+      "sha256": "c9f8a4f3a6d7f8bbbd10b71492e1eccef289cd2849d6de0c2276d7d9379bd7c6",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-055/eeg/sub-055_task-thermalactive_eeg.vmrk"
+    },
+    {
+      "path": "sub-055/eeg/sub-055_task-thermalactive_events.tsv",
+      "bytes": 669,
+      "snapshot_blob_sha": "9023139d151ad82f0c3fcb614f4a4c78afb265d3",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-055/eeg/sub-055_task-thermalactive_events.tsv"
+    },
+    {
+      "path": "sub-055/eeg/sub-055_task-thermalactive_stim.json",
+      "bytes": 123,
+      "snapshot_blob_sha": "82a800ef346ce522924ace5eb31dba0868bbd574",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-055/eeg/sub-055_task-thermalactive_stim.json"
+    },
+    {
+      "path": "sub-055/eeg/sub-055_task-thermalactive_stim.tsv.gz",
+      "bytes": 270368,
+      "snapshot_blob_sha": "30c672067c274e6b37afc8c021f4b0fba546435d",
+      "sha256": "0bb964703c0e59569cf3420d2b69f2e4817747f88ae137cc720d9e4a7889ad99",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-055/eeg/sub-055_task-thermalactive_stim.tsv.gz"
+    },
+    {
+      "path": "sub-058/eeg/sub-058_task-thermalactive_channels.tsv",
+      "bytes": 2781,
+      "snapshot_blob_sha": "beb758bbdeb276868f8a205788dbd3d8e9daa7a3",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-058/eeg/sub-058_task-thermalactive_channels.tsv"
+    },
+    {
+      "path": "sub-058/eeg/sub-058_task-thermalactive_eeg.eeg",
+      "bytes": 140000280,
+      "snapshot_blob_sha": "d9fd1fe35c6cb5425f400344e64590ab4baccddd",
+      "sha256": "052d4f3b284d7adb326e51110a09a6f4103a9f50a18f41444cf8e6958c21fdaa",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-058/eeg/sub-058_task-thermalactive_eeg.eeg"
+    },
+    {
+      "path": "sub-058/eeg/sub-058_task-thermalactive_eeg.json",
+      "bytes": 1006,
+      "snapshot_blob_sha": "53c71e2d2dc5203b525c8b97ae5b5cab9d849908",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-058/eeg/sub-058_task-thermalactive_eeg.json"
+    },
+    {
+      "path": "sub-058/eeg/sub-058_task-thermalactive_eeg.vhdr",
+      "bytes": 2528,
+      "snapshot_blob_sha": "8fa4c46f9572a9d6f696c2446bf37fd040f8c6ce",
+      "sha256": "cc95706ad8f1dd3f9bc4729c2b8a7964deac988d28bc6c0b8c589db3679d6f46",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-058/eeg/sub-058_task-thermalactive_eeg.vhdr"
+    },
+    {
+      "path": "sub-058/eeg/sub-058_task-thermalactive_eeg.vmrk",
+      "bytes": 873,
+      "snapshot_blob_sha": "e7700d05356334ebc0649b41e1b9b3fce9ffc098",
+      "sha256": "bdc06ace1557ff611f0a3c9f234db72a2675d309c60a43936e39f29cb8384049",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-058/eeg/sub-058_task-thermalactive_eeg.vmrk"
+    },
+    {
+      "path": "sub-058/eeg/sub-058_task-thermalactive_events.tsv",
+      "bytes": 677,
+      "snapshot_blob_sha": "9bf0718ed92347164eeeb5c05bd74e3bfca0b2b9",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-058/eeg/sub-058_task-thermalactive_events.tsv"
+    },
+    {
+      "path": "sub-058/eeg/sub-058_task-thermalactive_stim.json",
+      "bytes": 123,
+      "snapshot_blob_sha": "82a800ef346ce522924ace5eb31dba0868bbd574",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-058/eeg/sub-058_task-thermalactive_stim.json"
+    },
+    {
+      "path": "sub-058/eeg/sub-058_task-thermalactive_stim.tsv.gz",
+      "bytes": 265903,
+      "snapshot_blob_sha": "99a07cb549b337874bc020c0321471e41403a7cd",
+      "sha256": "116fe6452d38a77660f1048b3ba1314654317a234c01ca6a8cfcc8c9b1eba8c3",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-058/eeg/sub-058_task-thermalactive_stim.tsv.gz"
+    },
+    {
+      "path": "sub-061/eeg/sub-061_task-thermalactive_channels.tsv",
+      "bytes": 2806,
+      "snapshot_blob_sha": "db2bcd74282df078f742b70aad72de5a76bef487",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-061/eeg/sub-061_task-thermalactive_channels.tsv"
+    },
+    {
+      "path": "sub-061/eeg/sub-061_task-thermalactive_eeg.eeg",
+      "bytes": 140000280,
+      "snapshot_blob_sha": "5156a0036921cc53a36bb376cdd888fe0799c96a",
+      "sha256": "d2223858fc1a36ce872ffcb6979971dc721e3524ddaf5a5135bb26222f2908bc",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-061/eeg/sub-061_task-thermalactive_eeg.eeg"
+    },
+    {
+      "path": "sub-061/eeg/sub-061_task-thermalactive_eeg.json",
+      "bytes": 1082,
+      "snapshot_blob_sha": "61d1c85c8a7bead78b15ec32594470a1735029cc",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-061/eeg/sub-061_task-thermalactive_eeg.json"
+    },
+    {
+      "path": "sub-061/eeg/sub-061_task-thermalactive_eeg.vhdr",
+      "bytes": 2528,
+      "snapshot_blob_sha": "56231c6b78b2436db36f58719094f28248af63b7",
+      "sha256": "4a8f00c5debee6c50349cd67b4f54cedf4c85cc7500335afcde90e7d8614a30f",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-061/eeg/sub-061_task-thermalactive_eeg.vhdr"
+    },
+    {
+      "path": "sub-061/eeg/sub-061_task-thermalactive_eeg.vmrk",
+      "bytes": 873,
+      "snapshot_blob_sha": "826b79a632e0899b4efed7d24990db58030ec917",
+      "sha256": "0b01bd07ce021df69e31a2d09edcaa3ea90ae72823da3e2730be35f2ea644cba",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-061/eeg/sub-061_task-thermalactive_eeg.vmrk"
+    },
+    {
+      "path": "sub-061/eeg/sub-061_task-thermalactive_events.tsv",
+      "bytes": 730,
+      "snapshot_blob_sha": "18f85ec3844d98a412cc6b4d3273f338ef2810df",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-061/eeg/sub-061_task-thermalactive_events.tsv"
+    },
+    {
+      "path": "sub-061/eeg/sub-061_task-thermalactive_stim.json",
+      "bytes": 123,
+      "snapshot_blob_sha": "82a800ef346ce522924ace5eb31dba0868bbd574",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-061/eeg/sub-061_task-thermalactive_stim.json"
+    },
+    {
+      "path": "sub-061/eeg/sub-061_task-thermalactive_stim.tsv.gz",
+      "bytes": 239938,
+      "snapshot_blob_sha": "f518cc8b8098a8b0ed7de96998f26c5ffe163b44",
+      "sha256": "eabab1eb5b78ea87cded39d906045140b96ca94829dbcde878b5f75b4fcb1676",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-061/eeg/sub-061_task-thermalactive_stim.tsv.gz"
+    },
+    {
+      "path": "sub-062/eeg/sub-062_task-thermalactive_channels.tsv",
+      "bytes": 2578,
+      "snapshot_blob_sha": "e6b4bec5565ebb21a2a1745892f5ef39c96ca725",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-062/eeg/sub-062_task-thermalactive_channels.tsv"
+    },
+    {
+      "path": "sub-062/eeg/sub-062_task-thermalactive_eeg.eeg",
+      "bytes": 140000280,
+      "snapshot_blob_sha": "f44c6a9a3c558504b01c0f6428dec1c276b3cbf7",
+      "sha256": "a19cf24ed1a2ca4e9c151dbf9f7ec4420511d00496853869a9caa10d63ddc54b",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-062/eeg/sub-062_task-thermalactive_eeg.eeg"
+    },
+    {
+      "path": "sub-062/eeg/sub-062_task-thermalactive_eeg.json",
+      "bytes": 1006,
+      "snapshot_blob_sha": "53c71e2d2dc5203b525c8b97ae5b5cab9d849908",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-062/eeg/sub-062_task-thermalactive_eeg.json"
+    },
+    {
+      "path": "sub-062/eeg/sub-062_task-thermalactive_eeg.vhdr",
+      "bytes": 2528,
+      "snapshot_blob_sha": "12948ba6bf43203fb8633e4d96353cb0e5f06d38",
+      "sha256": "03f5fea899e8522e9e100beb338ccd58de37c922f8cf410665008287cd858928",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-062/eeg/sub-062_task-thermalactive_eeg.vhdr"
+    },
+    {
+      "path": "sub-062/eeg/sub-062_task-thermalactive_eeg.vmrk",
+      "bytes": 873,
+      "snapshot_blob_sha": "6c3a1e092238c60f834a86a602063a6aed7366d5",
+      "sha256": "9088ed3600fe760edf83e83365902fc792c1a22f855aa4f7be39bda18a0843ec",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-062/eeg/sub-062_task-thermalactive_eeg.vmrk"
+    },
+    {
+      "path": "sub-062/eeg/sub-062_task-thermalactive_events.tsv",
+      "bytes": 643,
+      "snapshot_blob_sha": "9bb76245d6d3f86e2a6cdf7d665481df0ff15b6f",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-062/eeg/sub-062_task-thermalactive_events.tsv"
+    },
+    {
+      "path": "sub-062/eeg/sub-062_task-thermalactive_stim.json",
+      "bytes": 123,
+      "snapshot_blob_sha": "82a800ef346ce522924ace5eb31dba0868bbd574",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-062/eeg/sub-062_task-thermalactive_stim.json"
+    },
+    {
+      "path": "sub-062/eeg/sub-062_task-thermalactive_stim.tsv.gz",
+      "bytes": 260903,
+      "snapshot_blob_sha": "06273f9db1e426ac5843c934f7f48c4b9e393ecd",
+      "sha256": "b3ffd310e30462cbf700d9e9f33cc569daa89614c5c01cf108de53dc5eef3998",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-062/eeg/sub-062_task-thermalactive_stim.tsv.gz"
+    },
+    {
+      "path": "sub-065/eeg/sub-065_task-thermalactive_channels.tsv",
+      "bytes": 2254,
+      "snapshot_blob_sha": "193a8ff497303d6201cff5b381092031351a13d4",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-065/eeg/sub-065_task-thermalactive_channels.tsv"
+    },
+    {
+      "path": "sub-065/eeg/sub-065_task-thermalactive_eeg.eeg",
+      "bytes": 140000280,
+      "snapshot_blob_sha": "5f3a07624344866854ec35cb8593b8de63cf3c76",
+      "sha256": "cfd09f3778b7eab4a92e3cb9e6d8ae9348b9b5533fc59d973e5c65cd8a9f10cc",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-065/eeg/sub-065_task-thermalactive_eeg.eeg"
+    },
+    {
+      "path": "sub-065/eeg/sub-065_task-thermalactive_eeg.json",
+      "bytes": 882,
+      "snapshot_blob_sha": "02ed66e7c9dc8c14156b2bcbb7570a4feb48f53f",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-065/eeg/sub-065_task-thermalactive_eeg.json"
+    },
+    {
+      "path": "sub-065/eeg/sub-065_task-thermalactive_eeg.vhdr",
+      "bytes": 2500,
+      "snapshot_blob_sha": "f8ab862f9029ab57e9bfa0b8378f8453854a0964",
+      "sha256": "02b54537b9ab5b9dd6b7085ad9a39ba92cbe030b2226a4071e99931da6de30a1",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-065/eeg/sub-065_task-thermalactive_eeg.vhdr"
+    },
+    {
+      "path": "sub-065/eeg/sub-065_task-thermalactive_eeg.vmrk",
+      "bytes": 873,
+      "snapshot_blob_sha": "193bf8ad879d3f69ab57a82f0fd72fed99d117bd",
+      "sha256": "0a161a2193149277d56148d3d2b6708c6c0cc2dbbd0c79907c59a85df99eb5b0",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-065/eeg/sub-065_task-thermalactive_eeg.vmrk"
+    },
+    {
+      "path": "sub-065/eeg/sub-065_task-thermalactive_events.tsv",
+      "bytes": 660,
+      "snapshot_blob_sha": "e876345e92c6724d539cfb63751be27f10f898f2",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-065/eeg/sub-065_task-thermalactive_events.tsv"
+    },
+    {
+      "path": "sub-065/eeg/sub-065_task-thermalactive_stim.json",
+      "bytes": 123,
+      "snapshot_blob_sha": "82a800ef346ce522924ace5eb31dba0868bbd574",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-065/eeg/sub-065_task-thermalactive_stim.json"
+    },
+    {
+      "path": "sub-065/eeg/sub-065_task-thermalactive_stim.tsv.gz",
+      "bytes": 276961,
+      "snapshot_blob_sha": "703e1a10601ce736fdfd4746469a9a2b8dc55d23",
+      "sha256": "86839d5159ddf33cd3049d7df856bd046a2b33c68e528f959d192eaf0c9f3e7a",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-065/eeg/sub-065_task-thermalactive_stim.tsv.gz"
+    },
+    {
+      "path": "sub-083/eeg/sub-083_task-thermalactive_channels.tsv",
+      "bytes": 2253,
+      "snapshot_blob_sha": "2488caaaa72cd7f7bdd38283b00f6bfa73c0d635",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-083/eeg/sub-083_task-thermalactive_channels.tsv"
+    },
+    {
+      "path": "sub-083/eeg/sub-083_task-thermalactive_eeg.eeg",
+      "bytes": 140000280,
+      "snapshot_blob_sha": "0959aa111706f937d2e330c7622708be04acc00f",
+      "sha256": "ec41415c518a1c3168d0af033f22506d4899e520fc59489073ffae1a2a80d5e9",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-083/eeg/sub-083_task-thermalactive_eeg.eeg"
+    },
+    {
+      "path": "sub-083/eeg/sub-083_task-thermalactive_eeg.json",
+      "bytes": 882,
+      "snapshot_blob_sha": "02ed66e7c9dc8c14156b2bcbb7570a4feb48f53f",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-083/eeg/sub-083_task-thermalactive_eeg.json"
+    },
+    {
+      "path": "sub-083/eeg/sub-083_task-thermalactive_eeg.vhdr",
+      "bytes": 2500,
+      "snapshot_blob_sha": "8a0af3051a228c302b14c7557fcc13cf1a59efc6",
+      "sha256": "c26265552a27c833ce2f23782aa9f2f9c17078582872dbb03d1c0ae5c9a15f32",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-083/eeg/sub-083_task-thermalactive_eeg.vhdr"
+    },
+    {
+      "path": "sub-083/eeg/sub-083_task-thermalactive_eeg.vmrk",
+      "bytes": 873,
+      "snapshot_blob_sha": "db0c1d131cc94383a4fd44a87d045b4a8364a0ce",
+      "sha256": "9181fe89400d84dd1848a338c1ff34a14925cb88463701e2aee589be95e1138a",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-083/eeg/sub-083_task-thermalactive_eeg.vmrk"
+    },
+    {
+      "path": "sub-083/eeg/sub-083_task-thermalactive_events.tsv",
+      "bytes": 733,
+      "snapshot_blob_sha": "0d829d64b28951e794fa1cd4c35f1511762663ea",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-083/eeg/sub-083_task-thermalactive_events.tsv"
+    },
+    {
+      "path": "sub-083/eeg/sub-083_task-thermalactive_stim.json",
+      "bytes": 123,
+      "snapshot_blob_sha": "82a800ef346ce522924ace5eb31dba0868bbd574",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-083/eeg/sub-083_task-thermalactive_stim.json"
+    },
+    {
+      "path": "sub-083/eeg/sub-083_task-thermalactive_stim.tsv.gz",
+      "bytes": 282762,
+      "snapshot_blob_sha": "90634a362b19f8f39f66a9235aad1dacd605c3a3",
+      "sha256": "8962af81f0d8b970d097b389068e647f33c525a197738a7c2be8e801c44c1f4a",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-083/eeg/sub-083_task-thermalactive_stim.tsv.gz"
+    },
+    {
+      "path": "sub-109/eeg/sub-109_task-thermalactive_channels.tsv",
+      "bytes": 1712,
+      "snapshot_blob_sha": "e25fb9548ac0d5f74d9c1facf873bda5b3fae863",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-109/eeg/sub-109_task-thermalactive_channels.tsv"
+    },
+    {
+      "path": "sub-109/eeg/sub-109_task-thermalactive_eeg.eeg",
+      "bytes": 140000280,
+      "snapshot_blob_sha": "a826d94fd1f7f01d4e131f6f98878ef27e098394",
+      "sha256": "e0899f96fde623acd58e56a77154ae4e0fb52b7f6e66913e949093e5648e075c",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-109/eeg/sub-109_task-thermalactive_eeg.eeg"
+    },
+    {
+      "path": "sub-109/eeg/sub-109_task-thermalactive_eeg.json",
+      "bytes": 722,
+      "snapshot_blob_sha": "c736569bf095223c89a7f972844a30737b471413",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-109/eeg/sub-109_task-thermalactive_eeg.json"
+    },
+    {
+      "path": "sub-109/eeg/sub-109_task-thermalactive_eeg.vhdr",
+      "bytes": 2500,
+      "snapshot_blob_sha": "9bf073be451ccb046a6f55b0195ca6b4c3eb1c81",
+      "sha256": "8ad100bad1fdf16772aacd80ccf56aabcc60b553b79dac60cdce671151e8b1be",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-109/eeg/sub-109_task-thermalactive_eeg.vhdr"
+    },
+    {
+      "path": "sub-109/eeg/sub-109_task-thermalactive_eeg.vmrk",
+      "bytes": 873,
+      "snapshot_blob_sha": "4bc601b6950636e4a16f5bacf0e362d3f5c9b6e3",
+      "sha256": "3c6e1ec971e1ed9b8e5f8cad996a5d90df5fb00908e522a6de8a1eb070eaac0e",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-109/eeg/sub-109_task-thermalactive_eeg.vmrk"
+    },
+    {
+      "path": "sub-109/eeg/sub-109_task-thermalactive_events.tsv",
+      "bytes": 724,
+      "snapshot_blob_sha": "421bbf5380b7f166fc68d4f0f4b7047dc2d90e7f",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-109/eeg/sub-109_task-thermalactive_events.tsv"
+    },
+    {
+      "path": "sub-109/eeg/sub-109_task-thermalactive_stim.json",
+      "bytes": 123,
+      "snapshot_blob_sha": "82a800ef346ce522924ace5eb31dba0868bbd574",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-109/eeg/sub-109_task-thermalactive_stim.json"
+    },
+    {
+      "path": "sub-109/eeg/sub-109_task-thermalactive_stim.tsv.gz",
+      "bytes": 271569,
+      "snapshot_blob_sha": "bcda3d87452300abd0f0afc99e691a31bb78ad77",
+      "sha256": "56ca461e3b2d84cf13d86b50fbbf1bda24c0e7f97a02ab07fb7a831ed80510ac",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-109/eeg/sub-109_task-thermalactive_stim.tsv.gz"
+    },
+    {
+      "path": "sub-111/eeg/sub-111_task-thermalactive_channels.tsv",
+      "bytes": 2047,
+      "snapshot_blob_sha": "74266022fb60d51a96b7c6e85428add244d11aec",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-111/eeg/sub-111_task-thermalactive_channels.tsv"
+    },
+    {
+      "path": "sub-111/eeg/sub-111_task-thermalactive_eeg.eeg",
+      "bytes": 140000280,
+      "snapshot_blob_sha": "bbe5da1933cc10dbe63c79200ab814b9b32eec22",
+      "sha256": "1858505d12bee00bb9c470f6d25f953a82dbd4dd613f02699206608feb21e160",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-111/eeg/sub-111_task-thermalactive_eeg.eeg"
+    },
+    {
+      "path": "sub-111/eeg/sub-111_task-thermalactive_eeg.json",
+      "bytes": 813,
+      "snapshot_blob_sha": "04477b8979d1af45954fc93501495252e903016f",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-111/eeg/sub-111_task-thermalactive_eeg.json"
+    },
+    {
+      "path": "sub-111/eeg/sub-111_task-thermalactive_eeg.vhdr",
+      "bytes": 2500,
+      "snapshot_blob_sha": "79d8d8b1f1b6039aff10585c6073cbce9335d1e5",
+      "sha256": "93b41c46a18be450a897c73269f4e2ccc3bd0d06bc1c18062a0946601b3daf2f",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-111/eeg/sub-111_task-thermalactive_eeg.vhdr"
+    },
+    {
+      "path": "sub-111/eeg/sub-111_task-thermalactive_eeg.vmrk",
+      "bytes": 873,
+      "snapshot_blob_sha": "3e148adf99095e41230fcd9a087481da99a22ab7",
+      "sha256": "f44c535de9d1ab51702f74726e9fc5a73368a62833e837207f140e5452da7732",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-111/eeg/sub-111_task-thermalactive_eeg.vmrk"
+    },
+    {
+      "path": "sub-111/eeg/sub-111_task-thermalactive_events.tsv",
+      "bytes": 703,
+      "snapshot_blob_sha": "d477d9c128a34942884a727739be2660353a753d",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-111/eeg/sub-111_task-thermalactive_events.tsv"
+    },
+    {
+      "path": "sub-111/eeg/sub-111_task-thermalactive_stim.json",
+      "bytes": 123,
+      "snapshot_blob_sha": "82a800ef346ce522924ace5eb31dba0868bbd574",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-111/eeg/sub-111_task-thermalactive_stim.json"
+    },
+    {
+      "path": "sub-111/eeg/sub-111_task-thermalactive_stim.tsv.gz",
+      "bytes": 272385,
+      "snapshot_blob_sha": "a5a08434d6e94995c9473445e50e68c754c577a7",
+      "sha256": "3fd1ea818a60931d19a562cc8c49194cf4efb93cbaaf791bf34e323e9c6b9e6b",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-111/eeg/sub-111_task-thermalactive_stim.tsv.gz"
+    },
+    {
+      "path": "sub-113/eeg/sub-113_task-thermalactive_channels.tsv",
+      "bytes": 2047,
+      "snapshot_blob_sha": "08946b561876a9675157a5a2c43fc6122ca0b350",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-113/eeg/sub-113_task-thermalactive_channels.tsv"
+    },
+    {
+      "path": "sub-113/eeg/sub-113_task-thermalactive_eeg.eeg",
+      "bytes": 140000280,
+      "snapshot_blob_sha": "45328e1dff43cede287ec21a0f306e51e4ef7258",
+      "sha256": "82e9f1680d799a9aca70114b0095feb5bc640c443fff30a431d44e1688187b1f",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-113/eeg/sub-113_task-thermalactive_eeg.eeg"
+    },
+    {
+      "path": "sub-113/eeg/sub-113_task-thermalactive_eeg.json",
+      "bytes": 813,
+      "snapshot_blob_sha": "04477b8979d1af45954fc93501495252e903016f",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-113/eeg/sub-113_task-thermalactive_eeg.json"
+    },
+    {
+      "path": "sub-113/eeg/sub-113_task-thermalactive_eeg.vhdr",
+      "bytes": 2500,
+      "snapshot_blob_sha": "ca1a7316a61ce9832e25690008ef463a56362e58",
+      "sha256": "8c0ae45fe5754719b7b55cbdb43d0edb3593433b1d9e68b8470c0a4c4140ae6e",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-113/eeg/sub-113_task-thermalactive_eeg.vhdr"
+    },
+    {
+      "path": "sub-113/eeg/sub-113_task-thermalactive_eeg.vmrk",
+      "bytes": 873,
+      "snapshot_blob_sha": "85d7811495e83615b13af3b5a97da1f818ae214b",
+      "sha256": "786a6bc9207eb6e659bd71971ccd362071dad77e8c381fc155121ace833a2ea5",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-113/eeg/sub-113_task-thermalactive_eeg.vmrk"
+    },
+    {
+      "path": "sub-113/eeg/sub-113_task-thermalactive_events.tsv",
+      "bytes": 723,
+      "snapshot_blob_sha": "05f82eb926f055e527f1e28274b8a9812d5f35b3",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-113/eeg/sub-113_task-thermalactive_events.tsv"
+    },
+    {
+      "path": "sub-113/eeg/sub-113_task-thermalactive_stim.json",
+      "bytes": 123,
+      "snapshot_blob_sha": "82a800ef346ce522924ace5eb31dba0868bbd574",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-113/eeg/sub-113_task-thermalactive_stim.json"
+    },
+    {
+      "path": "sub-113/eeg/sub-113_task-thermalactive_stim.tsv.gz",
+      "bytes": 274878,
+      "snapshot_blob_sha": "44629f75851a1c32d3a0cb4a165fd5451c5bb44c",
+      "sha256": "33b05a38b41c297169bdc7574115ee03660784023fd6f00ca653e1b099a93b6f",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-113/eeg/sub-113_task-thermalactive_stim.tsv.gz"
+    },
+    {
+      "path": "sub-121/eeg/sub-121_task-thermalactive_channels.tsv",
+      "bytes": 1712,
+      "snapshot_blob_sha": "e25fb9548ac0d5f74d9c1facf873bda5b3fae863",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-121/eeg/sub-121_task-thermalactive_channels.tsv"
+    },
+    {
+      "path": "sub-121/eeg/sub-121_task-thermalactive_eeg.eeg",
+      "bytes": 140000280,
+      "snapshot_blob_sha": "0a12fdf61b35b4393fd9833512c823b9298622f4",
+      "sha256": "92d7d4989c89d08de6d45dc8195ddba24f40a200314ab4e0b1ebf9c84efe176c",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-121/eeg/sub-121_task-thermalactive_eeg.eeg"
+    },
+    {
+      "path": "sub-121/eeg/sub-121_task-thermalactive_eeg.json",
+      "bytes": 722,
+      "snapshot_blob_sha": "c736569bf095223c89a7f972844a30737b471413",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-121/eeg/sub-121_task-thermalactive_eeg.json"
+    },
+    {
+      "path": "sub-121/eeg/sub-121_task-thermalactive_eeg.vhdr",
+      "bytes": 2500,
+      "snapshot_blob_sha": "b9bc868c945757f0867c3bd7f42aa32403226070",
+      "sha256": "cb5447e9901480e414abf8c968021e412cd85dee2fc3bc53bcd8038dec1f3d68",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-121/eeg/sub-121_task-thermalactive_eeg.vhdr"
+    },
+    {
+      "path": "sub-121/eeg/sub-121_task-thermalactive_eeg.vmrk",
+      "bytes": 873,
+      "snapshot_blob_sha": "28315c5e297225e43d449306f78717eaa0878d95",
+      "sha256": "2751fc868bfa6df5f7f032b4ef984888ef313d822456f34b19f47e9008d821eb",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-121/eeg/sub-121_task-thermalactive_eeg.vmrk"
+    },
+    {
+      "path": "sub-121/eeg/sub-121_task-thermalactive_events.tsv",
+      "bytes": 653,
+      "snapshot_blob_sha": "8be682b27e5d4433b353a1705d5bcc3f3f1c2fe7",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-121/eeg/sub-121_task-thermalactive_events.tsv"
+    },
+    {
+      "path": "sub-121/eeg/sub-121_task-thermalactive_stim.json",
+      "bytes": 123,
+      "snapshot_blob_sha": "82a800ef346ce522924ace5eb31dba0868bbd574",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-121/eeg/sub-121_task-thermalactive_stim.json"
+    },
+    {
+      "path": "sub-121/eeg/sub-121_task-thermalactive_stim.tsv.gz",
+      "bytes": 278804,
+      "snapshot_blob_sha": "919fed7b3d1f2cb7d256cc39600ad4af7a670ec7",
+      "sha256": "ba3d6e35dab890125269d27e4f582411cc99ab70e4bac9aeed49e6d48a5703e3",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-121/eeg/sub-121_task-thermalactive_stim.tsv.gz"
+    },
+    {
+      "path": "sub-127/eeg/sub-127_task-thermalactive_channels.tsv",
+      "bytes": 2018,
+      "snapshot_blob_sha": "eb882a3fd54cf2dc8fe193ad76a48a847e61daf2",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-127/eeg/sub-127_task-thermalactive_channels.tsv"
+    },
+    {
+      "path": "sub-127/eeg/sub-127_task-thermalactive_eeg.eeg",
+      "bytes": 140000280,
+      "snapshot_blob_sha": "a94d9ce034b205690306bf86d827f7ec8df7b47f",
+      "sha256": "5ebe9e292a0e115bd3fe65f3e7f2d3dfc444e906c1012d2cb9b522e1ecb07a3b",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-127/eeg/sub-127_task-thermalactive_eeg.eeg"
+    },
+    {
+      "path": "sub-127/eeg/sub-127_task-thermalactive_eeg.json",
+      "bytes": 813,
+      "snapshot_blob_sha": "04477b8979d1af45954fc93501495252e903016f",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-127/eeg/sub-127_task-thermalactive_eeg.json"
+    },
+    {
+      "path": "sub-127/eeg/sub-127_task-thermalactive_eeg.vhdr",
+      "bytes": 2500,
+      "snapshot_blob_sha": "74e57f638eeef4e4eba619a277ebca6120109efd",
+      "sha256": "69528e368614b89fe651b35bcf08481570eb8c82f56f798b75b0b8b2ca2e3c63",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-127/eeg/sub-127_task-thermalactive_eeg.vhdr"
+    },
+    {
+      "path": "sub-127/eeg/sub-127_task-thermalactive_eeg.vmrk",
+      "bytes": 873,
+      "snapshot_blob_sha": "0437550ccfd1ea6eed6e0c17f3ea538d0a68d227",
+      "sha256": "7ab0bc3cf29a425678206517813651e5434d480259df07d6ceda67245b8213c9",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-127/eeg/sub-127_task-thermalactive_eeg.vmrk"
+    },
+    {
+      "path": "sub-127/eeg/sub-127_task-thermalactive_events.tsv",
+      "bytes": 700,
+      "snapshot_blob_sha": "9d9f2eceab9f96581a7b30bece58e5dba2cef863",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-127/eeg/sub-127_task-thermalactive_events.tsv"
+    },
+    {
+      "path": "sub-127/eeg/sub-127_task-thermalactive_stim.json",
+      "bytes": 123,
+      "snapshot_blob_sha": "82a800ef346ce522924ace5eb31dba0868bbd574",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-127/eeg/sub-127_task-thermalactive_stim.json"
+    },
+    {
+      "path": "sub-127/eeg/sub-127_task-thermalactive_stim.tsv.gz",
+      "bytes": 274672,
+      "snapshot_blob_sha": "de3fc2454a21584f7b2704cb8fd87facdfc9a2c5",
+      "sha256": "f0cc5b0b86a092b509917930bea49097d4b0a626e1531f9a87c22a696220fc2e",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-127/eeg/sub-127_task-thermalactive_stim.tsv.gz"
+    },
+    {
+      "path": "sub-131/eeg/sub-131_task-thermalactive_channels.tsv",
+      "bytes": 2076,
+      "snapshot_blob_sha": "8646bda2890c5bae6b4be15c372fec0348345ab7",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-131/eeg/sub-131_task-thermalactive_channels.tsv"
+    },
+    {
+      "path": "sub-131/eeg/sub-131_task-thermalactive_eeg.eeg",
+      "bytes": 140000280,
+      "snapshot_blob_sha": "1469143ab34562fbaa8d64e290bcb6bdcad14ef0",
+      "sha256": "5c70d9b1fc1fc30d5dfbf20bee958db7e56e2fa3a8ed1712a7202bc1ce51c473",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-131/eeg/sub-131_task-thermalactive_eeg.eeg"
+    },
+    {
+      "path": "sub-131/eeg/sub-131_task-thermalactive_eeg.json",
+      "bytes": 813,
+      "snapshot_blob_sha": "04477b8979d1af45954fc93501495252e903016f",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-131/eeg/sub-131_task-thermalactive_eeg.json"
+    },
+    {
+      "path": "sub-131/eeg/sub-131_task-thermalactive_eeg.vhdr",
+      "bytes": 2500,
+      "snapshot_blob_sha": "bc59ebdf7d8e2a21c65678ca5ed71073ba517ed8",
+      "sha256": "a7bd813bfa27bd36c1aeb4cd8e162aa05d917b5501c59b0e7774edb676554c70",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-131/eeg/sub-131_task-thermalactive_eeg.vhdr"
+    },
+    {
+      "path": "sub-131/eeg/sub-131_task-thermalactive_eeg.vmrk",
+      "bytes": 873,
+      "snapshot_blob_sha": "04fade4256e3e0fec80963cf37c162df5e2d8007",
+      "sha256": "a9cbc955de5cb920b2b9bfae82da9d5cc9c370aef42f430f85ea0e857cde4895",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-131/eeg/sub-131_task-thermalactive_eeg.vmrk"
+    },
+    {
+      "path": "sub-131/eeg/sub-131_task-thermalactive_events.tsv",
+      "bytes": 748,
+      "snapshot_blob_sha": "1e014a31b540705c690c3d6392a639ef2bf537fa",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-131/eeg/sub-131_task-thermalactive_events.tsv"
+    },
+    {
+      "path": "sub-131/eeg/sub-131_task-thermalactive_stim.json",
+      "bytes": 123,
+      "snapshot_blob_sha": "82a800ef346ce522924ace5eb31dba0868bbd574",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-131/eeg/sub-131_task-thermalactive_stim.json"
+    },
+    {
+      "path": "sub-131/eeg/sub-131_task-thermalactive_stim.tsv.gz",
+      "bytes": 278371,
+      "snapshot_blob_sha": "0c7980e1bf613b4043cc871e7ec0d3d7a0077185",
+      "sha256": "47839c3cba390904152635d3ee49886a7928f134922c0cbd773b693301bd06e4",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-131/eeg/sub-131_task-thermalactive_stim.tsv.gz"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "locked_utc": "2026-11-22T07:16:28+00:00",
+  "dataset": "OpenNeuro ds008349 v2.0.1",
+  "task": "thermalactive",
+  "pilot_participants_excluded": [
+    "sub-055",
+    "sub-058",
+    "sub-061",
+    "sub-062",
+    "sub-065",
+    "sub-083",
+    "sub-086",
+    "sub-089",
+    "sub-092",
+    "sub-109",
+    "sub-111",
+    "sub-113",
+    "sub-121",
+    "sub-127",
+    "sub-131"
+  ],
+  "confirmation_participants": [
+    "sub-056",
+    "sub-057",
+    "sub-059",
+    "sub-060",
+    "sub-064",
+    "sub-066",
+    "sub-067",
+    "sub-068",
+    "sub-069",
+    "sub-070",
+    "sub-071",
+    "sub-072",
+    "sub-073",
+    "sub-074",
+    "sub-075",
+    "sub-076",
+    "sub-077",
+    "sub-078",
+    "sub-079",
+    "sub-080",
+    "sub-081",
+    "sub-082",
+    "sub-084",
+    "sub-085",
+    "sub-087",
+    "sub-088",
+    "sub-090",
+    "sub-091",
+    "sub-093",
+    "sub-094",
+    "sub-097",
+    "sub-098",
+    "sub-099",
+    "sub-100",
+    "sub-101",
+    "sub-102",
+    "sub-103",
+    "sub-104",
+    "sub-105",
+    "sub-106",
+    "sub-107",
+    "sub-108",
+    "sub-112",
+    "sub-114",
+    "sub-115",
+    "sub-116",
+    "sub-117",
+    "sub-118",
+    "sub-119",
+    "sub-120",
+    "sub-122",
+    "sub-123",
+    "sub-124",
+    "sub-125",
+    "sub-126",
+    "sub-128",
+    "sub-129",
+    "sub-130",
+    "sub-132"
+  ],
+  "hypothesis": "Within a participant and programmed heat level, the rating change between temperature-matched repeats is associated with the change in local C3/C4 alpha power after adjustment for measured temperature and the level-specific repeat contrast.",
+  "expected_structure": {
+    "sfreq_hz": 1000,
+    "eeg_channels": 63,
+    "acquisition_reference": "FCz",
+    "levels": [
+      50,
+      150,
+      100,
+      50,
+      150,
+      100,
+      150,
+      50,
+      100
+    ],
+    "onset_sample_and_marker_tolerance_ms": 1,
+    "missing_ratings": [
+      "negative",
+      999,
+      "nonfinite"
+    ],
+    "structural_failure_policy": "Require the pilot's channel, reference, timing and marker structure. Exclude a structurally invalid run and report the reason. Reject seconds with invalid ratings or temperature or stimulus inconsistent with expected level. Report rating-log alignment separately; embedded rating on the EEG clock is the primary measure."
+  },
+  "screen": {
+    "eeg_calibration_seconds": [
+      15,
+      25
+    ],
+    "matching_window_seconds": [
+      25,
+      35
+    ],
+    "nomination": "Count failed one-second scalp checks in calibration windows. Rank positive counts descending and break ties alphabetically. Protect C3, Cz, C4 and all eight local-reference neighbors.",
+    "eeg_peak_to_peak_microvolts_inclusive": [
+      0.5,
+      150
+    ],
+    "eog_channels": [
+      "HEOG",
+      "VEOG"
+    ],
+    "eog_filter_hz": [
+      1,
+      10
+    ],
+    "eog_filter": "Third-order Butterworth bandpass applied forward and backward to event seconds 12\u201338; assess seconds 25\u201335 in the buffered copy.",
+    "primary_eog_peak_to_peak_microvolts_exclusive": 100,
+    "max_rating_span_per_second_inclusive": 1,
+    "temperature_tolerance_celsius_inclusive": 0.1,
+    "min_common_passing_seconds": 5,
+    "matching": "Same participant, programmed level and relative one-second interval. Compare all pairs of repeats in chronological direction. Use the median of per-second median ratings and temperatures over the matched seconds.",
+    "omit_up_to_n_scalp_channels": 2
+  },
+  "alpha": {
+    "frequency_bins_hz_inclusive": [
+      8,
+      13
+    ],
+    "local_reference": {
+      "C3": [
+        "C1",
+        "C5",
+        "FC3",
+        "CP3"
+      ],
+      "C4": [
+        "C2",
+        "C6",
+        "FC4",
+        "CP4"
+      ]
+    },
+    "method": "Subtract each local neighbor mean from its center; use one-second constant-detrended Hann periodograms. Sum 1 Hz bins, take the natural log per site, and average over sites and common seconds.",
+    "effect": "Later-minus-earlier log alpha per 10 released rating units, also as percent alpha change via 100*expm1."
+  },
+  "inference": {
+    "model": "Weighted least squares of later-minus-earlier log alpha on rating difference per 10 units and measured temperature difference, with categorical programmed level x repeat contrast. Participant weight is divided equally over their retained pairs.",
+    "test": "Two-sided centered participant cluster bootstrap. Resample whole participants with replacement, preserving their pairs. Use the basic 95% interval from centered errors and the doubled smaller tail with a +1 correction. Report the number of valid draws.",
+    "bootstrap_attempts": 9999,
+    "seed": 834902,
+    "sensitivity": [
+      "use 75 \u00b5V EOG threshold",
+      "use 150 \u00b5V EOG threshold",
+      "primary threshold plus later-minus-earlier slow EOG swing covariate"
+    ],
+    "pass_counts": "Report downloaded, structurally valid, at least one block with five accepted seconds, and at least one matched block pair. Only the last group contributes to the primary model."
+  }
+}

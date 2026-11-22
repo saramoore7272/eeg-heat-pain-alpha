@@ -1,0 +1,7 @@
+-c ../requirements.txt
+streamlit
+mne
+matplotlib
+numpy
+pandas
+scipy

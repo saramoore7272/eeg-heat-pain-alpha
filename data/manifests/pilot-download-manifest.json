@@ -1,0 +1,490 @@
+{
+  "dataset": "ds008349",
+  "version": "2.0.1",
+  "tree_sha": "3252827891885aa1890e6b1531a2d3aeefeaa5fd",
+  "files": [
+    {
+      "path": "CHANGES",
+      "bytes": 80,
+      "snapshot_blob_sha": "faec59f5a66bc1ad9fe8f199383c6656701ef8b5",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/CHANGES"
+    },
+    {
+      "path": "dataset_description.json",
+      "bytes": 932,
+      "snapshot_blob_sha": "2fb3f5d7c5f9509ed244596f397ffaf36ea0855a",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/dataset_description.json"
+    },
+    {
+      "path": "participants.tsv",
+      "bytes": 174782,
+      "snapshot_blob_sha": "363cdca127cb83a7d18b9e93213cbc01c35eb090",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/participants.tsv"
+    },
+    {
+      "path": "sub-086/eeg/sub-086_task-audioactive_channels.tsv",
+      "bytes": 1712,
+      "snapshot_blob_sha": "e25fb9548ac0d5f74d9c1facf873bda5b3fae863",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-086/eeg/sub-086_task-audioactive_channels.tsv"
+    },
+    {
+      "path": "sub-086/eeg/sub-086_task-audioactive_eeg.eeg",
+      "bytes": 137200280,
+      "snapshot_blob_sha": "da9e47da397e77ae5d777ab6fd2df9aa3b6bdc58",
+      "sha256": "0f00720bbe00aeabfa4915caf6594b652a111ea4f8b6d47ea4e0ecaf5ff060e5",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-086/eeg/sub-086_task-audioactive_eeg.eeg"
+    },
+    {
+      "path": "sub-086/eeg/sub-086_task-audioactive_eeg.json",
+      "bytes": 716,
+      "snapshot_blob_sha": "2cd615496fb8585d391b74e20ebbac6decf11b6f",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-086/eeg/sub-086_task-audioactive_eeg.json"
+    },
+    {
+      "path": "sub-086/eeg/sub-086_task-audioactive_eeg.vhdr",
+      "bytes": 2496,
+      "snapshot_blob_sha": "8f9eaad2743720e31358925e55251815d7b15755",
+      "sha256": "8c2d80fe8a1585b7d9715cbdb8a35c155bc6cb68b40f9d760380cd74df6c7505",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-086/eeg/sub-086_task-audioactive_eeg.vhdr"
+    },
+    {
+      "path": "sub-086/eeg/sub-086_task-audioactive_eeg.vmrk",
+      "bytes": 871,
+      "snapshot_blob_sha": "81fe7f86e745ddf1d0af89f4262ae8a87230df99",
+      "sha256": "e20219a9b1bcd90a105e68e4a58ff19a255629393fe375a05e6912bb35990337",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-086/eeg/sub-086_task-audioactive_eeg.vmrk"
+    },
+    {
+      "path": "sub-086/eeg/sub-086_task-audioactive_events.tsv",
+      "bytes": 470,
+      "snapshot_blob_sha": "fa76394e3c434384ba9b216fc687b59ab21cf6e9",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-086/eeg/sub-086_task-audioactive_events.tsv"
+    },
+    {
+      "path": "sub-086/eeg/sub-086_task-audioactive_stim.json",
+      "bytes": 123,
+      "snapshot_blob_sha": "82a800ef346ce522924ace5eb31dba0868bbd574",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-086/eeg/sub-086_task-audioactive_stim.json"
+    },
+    {
+      "path": "sub-086/eeg/sub-086_task-audioactive_stim.tsv.gz",
+      "bytes": 273415,
+      "snapshot_blob_sha": "e1b8b28ea6dd1425dbc3d436a15c67adf3c4bc78",
+      "sha256": "c83646cdd44964209f7c2c25755d090324a265273e3d2a4733a5b3157c61cac2",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-086/eeg/sub-086_task-audioactive_stim.tsv.gz"
+    },
+    {
+      "path": "sub-086/eeg/sub-086_task-restingopen_channels.tsv",
+      "bytes": 1712,
+      "snapshot_blob_sha": "e25fb9548ac0d5f74d9c1facf873bda5b3fae863",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-086/eeg/sub-086_task-restingopen_channels.tsv"
+    },
+    {
+      "path": "sub-086/eeg/sub-086_task-restingopen_eeg.eeg",
+      "bytes": 84000560,
+      "snapshot_blob_sha": "c23ceaa4d3c123484cdb8e22c192e889a603b8d7",
+      "sha256": "225a62782f9121d7c0e901b92f1c83a729c70b50681d662643b007f11692653b",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-086/eeg/sub-086_task-restingopen_eeg.eeg"
+    },
+    {
+      "path": "sub-086/eeg/sub-086_task-restingopen_eeg.json",
+      "bytes": 662,
+      "snapshot_blob_sha": "b35eb37f64b32944b093398a5c7c482f49d72c60",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-086/eeg/sub-086_task-restingopen_eeg.json"
+    },
+    {
+      "path": "sub-086/eeg/sub-086_task-restingopen_eeg.vhdr",
+      "bytes": 2496,
+      "snapshot_blob_sha": "cb2b7bdf3d4b946d785809f1ca06ec32550b919b",
+      "sha256": "129dd4434e9ef8839025a15229ce433a81d6eb9c9ee9955439fa6d0781e046ce",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-086/eeg/sub-086_task-restingopen_eeg.vhdr"
+    },
+    {
+      "path": "sub-086/eeg/sub-086_task-restingopen_eeg.vmrk",
+      "bytes": 594,
+      "snapshot_blob_sha": "af8b915f7cf59801745c35d2b57fad0516d8167d",
+      "sha256": "89e4fed48eed774a8e952aef2abc6816125fb9c3fb62561b9d0c67741dec73de",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-086/eeg/sub-086_task-restingopen_eeg.vmrk"
+    },
+    {
+      "path": "sub-086/eeg/sub-086_task-restingopen_events.tsv",
+      "bytes": 97,
+      "snapshot_blob_sha": "5c718692d498d5d873a966576705d48234680b64",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-086/eeg/sub-086_task-restingopen_events.tsv"
+    },
+    {
+      "path": "sub-086/eeg/sub-086_task-thermalactive_channels.tsv",
+      "bytes": 1712,
+      "snapshot_blob_sha": "e25fb9548ac0d5f74d9c1facf873bda5b3fae863",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-086/eeg/sub-086_task-thermalactive_channels.tsv"
+    },
+    {
+      "path": "sub-086/eeg/sub-086_task-thermalactive_eeg.eeg",
+      "bytes": 140000280,
+      "snapshot_blob_sha": "de0287837739ab44720260a933c60b01ecce1ae9",
+      "sha256": "864c7ba3ac7c9eb39818594a0e959c5672536e47e447f048a0a1c9acfa29385e",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-086/eeg/sub-086_task-thermalactive_eeg.eeg"
+    },
+    {
+      "path": "sub-086/eeg/sub-086_task-thermalactive_eeg.json",
+      "bytes": 722,
+      "snapshot_blob_sha": "c736569bf095223c89a7f972844a30737b471413",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-086/eeg/sub-086_task-thermalactive_eeg.json"
+    },
+    {
+      "path": "sub-086/eeg/sub-086_task-thermalactive_eeg.vhdr",
+      "bytes": 2500,
+      "snapshot_blob_sha": "7be29920f3c65ef5d5d0b188b556eabf65c3e6b5",
+      "sha256": "c94bdbde3926127d3baf1b80471b45088f86eab73abe80d0886bdc82ec371907",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-086/eeg/sub-086_task-thermalactive_eeg.vhdr"
+    },
+    {
+      "path": "sub-086/eeg/sub-086_task-thermalactive_eeg.vmrk",
+      "bytes": 873,
+      "snapshot_blob_sha": "3b1a2a806d23249bbdf589aab912b6a0fd1bfba5",
+      "sha256": "631daa66a0e3053261fd98997df6f973ea8dbbc763fe7ecb1a720d00e65e4e18",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-086/eeg/sub-086_task-thermalactive_eeg.vmrk"
+    },
+    {
+      "path": "sub-086/eeg/sub-086_task-thermalactive_events.tsv",
+      "bytes": 688,
+      "snapshot_blob_sha": "f51b593e86b1b623d53e94cfce50daf9a29976c5",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-086/eeg/sub-086_task-thermalactive_events.tsv"
+    },
+    {
+      "path": "sub-086/eeg/sub-086_task-thermalactive_stim.json",
+      "bytes": 123,
+      "snapshot_blob_sha": "82a800ef346ce522924ace5eb31dba0868bbd574",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-086/eeg/sub-086_task-thermalactive_stim.json"
+    },
+    {
+      "path": "sub-086/eeg/sub-086_task-thermalactive_stim.tsv.gz",
+      "bytes": 281150,
+      "snapshot_blob_sha": "e84def327ba6693c5230c4ad26691ee3cc67fdb2",
+      "sha256": "e9b128228f1e782caca1627587d9273fb91d87a4b66e4dc477d657b4ceaa4cdc",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-086/eeg/sub-086_task-thermalactive_stim.tsv.gz"
+    },
+    {
+      "path": "sub-089/eeg/sub-089_task-audioactive_channels.tsv",
+      "bytes": 1712,
+      "snapshot_blob_sha": "e25fb9548ac0d5f74d9c1facf873bda5b3fae863",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-089/eeg/sub-089_task-audioactive_channels.tsv"
+    },
+    {
+      "path": "sub-089/eeg/sub-089_task-audioactive_eeg.eeg",
+      "bytes": 137200280,
+      "snapshot_blob_sha": "12d2874665f28b1c9550c1188f2da5aa268c2ec4",
+      "sha256": "38c85943a2ef4a21f45529c5309183291f7581d7f02a51a83ac31f5a274bf91f",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-089/eeg/sub-089_task-audioactive_eeg.eeg"
+    },
+    {
+      "path": "sub-089/eeg/sub-089_task-audioactive_eeg.json",
+      "bytes": 716,
+      "snapshot_blob_sha": "2cd615496fb8585d391b74e20ebbac6decf11b6f",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-089/eeg/sub-089_task-audioactive_eeg.json"
+    },
+    {
+      "path": "sub-089/eeg/sub-089_task-audioactive_eeg.vhdr",
+      "bytes": 2496,
+      "snapshot_blob_sha": "499b467648c3345fa9ae6e267b7e749292dc8265",
+      "sha256": "e7653f26785be8b96c327433c30118d9e2c50e96b2c3f023929fb99e3c18e5e7",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-089/eeg/sub-089_task-audioactive_eeg.vhdr"
+    },
+    {
+      "path": "sub-089/eeg/sub-089_task-audioactive_eeg.vmrk",
+      "bytes": 871,
+      "snapshot_blob_sha": "b9afa62508ad4e30f4325c5c0a61d9f6ad3b4bda",
+      "sha256": "f84814e71453a2b88cc62fecf723a8d51d6b4a023ad8eead6c75509d4b557c50",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-089/eeg/sub-089_task-audioactive_eeg.vmrk"
+    },
+    {
+      "path": "sub-089/eeg/sub-089_task-audioactive_events.tsv",
+      "bytes": 496,
+      "snapshot_blob_sha": "a5c480bc68d1dbffb2c60be49f3b966a94634d13",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-089/eeg/sub-089_task-audioactive_events.tsv"
+    },
+    {
+      "path": "sub-089/eeg/sub-089_task-audioactive_stim.json",
+      "bytes": 123,
+      "snapshot_blob_sha": "82a800ef346ce522924ace5eb31dba0868bbd574",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-089/eeg/sub-089_task-audioactive_stim.json"
+    },
+    {
+      "path": "sub-089/eeg/sub-089_task-audioactive_stim.tsv.gz",
+      "bytes": 230989,
+      "snapshot_blob_sha": "f4aa669575352cb8a4adfba09c3bdc8668f03135",
+      "sha256": "4753d924b0d59357f26c21d07122895a0da605b5bd5d268d395c7d3a149f4e2d",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-089/eeg/sub-089_task-audioactive_stim.tsv.gz"
+    },
+    {
+      "path": "sub-089/eeg/sub-089_task-restingopen_channels.tsv",
+      "bytes": 1712,
+      "snapshot_blob_sha": "e25fb9548ac0d5f74d9c1facf873bda5b3fae863",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-089/eeg/sub-089_task-restingopen_channels.tsv"
+    },
+    {
+      "path": "sub-089/eeg/sub-089_task-restingopen_eeg.eeg",
+      "bytes": 84001400,
+      "snapshot_blob_sha": "4f75e15140aa9fbd7813d902da5e38cd16c615d8",
+      "sha256": "c235ae847d49f6b763067fd8ceed8351cb1bbec28d67d56d36f61f6beeaf9b13",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-089/eeg/sub-089_task-restingopen_eeg.eeg"
+    },
+    {
+      "path": "sub-089/eeg/sub-089_task-restingopen_eeg.json",
+      "bytes": 662,
+      "snapshot_blob_sha": "b35eb37f64b32944b093398a5c7c482f49d72c60",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-089/eeg/sub-089_task-restingopen_eeg.json"
+    },
+    {
+      "path": "sub-089/eeg/sub-089_task-restingopen_eeg.vhdr",
+      "bytes": 2496,
+      "snapshot_blob_sha": "a05bf6c45a7e793a493f2430f6eaf4586f135a64",
+      "sha256": "9e3554a06da0ddcd7b535dfd24f9a4b16993c876c2db929bd4e06408b177260c",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-089/eeg/sub-089_task-restingopen_eeg.vhdr"
+    },
+    {
+      "path": "sub-089/eeg/sub-089_task-restingopen_eeg.vmrk",
+      "bytes": 594,
+      "snapshot_blob_sha": "5de269c448e7b99d5a94ad7dfe09599d19186b7d",
+      "sha256": "f2c6c9c00de2abcedb485b5de92785dca0c08c61f70a05df5c5563b8305c6519",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-089/eeg/sub-089_task-restingopen_eeg.vmrk"
+    },
+    {
+      "path": "sub-089/eeg/sub-089_task-restingopen_events.tsv",
+      "bytes": 97,
+      "snapshot_blob_sha": "5c718692d498d5d873a966576705d48234680b64",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-089/eeg/sub-089_task-restingopen_events.tsv"
+    },
+    {
+      "path": "sub-089/eeg/sub-089_task-thermalactive_channels.tsv",
+      "bytes": 1712,
+      "snapshot_blob_sha": "e25fb9548ac0d5f74d9c1facf873bda5b3fae863",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-089/eeg/sub-089_task-thermalactive_channels.tsv"
+    },
+    {
+      "path": "sub-089/eeg/sub-089_task-thermalactive_eeg.eeg",
+      "bytes": 140000280,
+      "snapshot_blob_sha": "a29502bf673b05c11181181ebc39426e3855b16b",
+      "sha256": "a30c698d30868c1b723a22b62546792f33b64e28022745bb53de4393b8f38514",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-089/eeg/sub-089_task-thermalactive_eeg.eeg"
+    },
+    {
+      "path": "sub-089/eeg/sub-089_task-thermalactive_eeg.json",
+      "bytes": 722,
+      "snapshot_blob_sha": "c736569bf095223c89a7f972844a30737b471413",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-089/eeg/sub-089_task-thermalactive_eeg.json"
+    },
+    {
+      "path": "sub-089/eeg/sub-089_task-thermalactive_eeg.vhdr",
+      "bytes": 2500,
+      "snapshot_blob_sha": "958e3445f9e7c3b9103149ae7d27907a29e814c2",
+      "sha256": "c91a6e2f3986822bd5f8005a6766cdcd86a8cfb35b6bb736b2e6ab9adebd34c8",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-089/eeg/sub-089_task-thermalactive_eeg.vhdr"
+    },
+    {
+      "path": "sub-089/eeg/sub-089_task-thermalactive_eeg.vmrk",
+      "bytes": 873,
+      "snapshot_blob_sha": "2db2a5771eedd66318707d4fb36480da2a525e03",
+      "sha256": "f319012eb0d61b2ab9731944db6fee9dbb2a7aa2752e050fc5b83918ab533ad1",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-089/eeg/sub-089_task-thermalactive_eeg.vmrk"
+    },
+    {
+      "path": "sub-089/eeg/sub-089_task-thermalactive_events.tsv",
+      "bytes": 728,
+      "snapshot_blob_sha": "524eeaf209e9c7cbbccc3fed22f379fbb94b7a99",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-089/eeg/sub-089_task-thermalactive_events.tsv"
+    },
+    {
+      "path": "sub-089/eeg/sub-089_task-thermalactive_stim.json",
+      "bytes": 123,
+      "snapshot_blob_sha": "82a800ef346ce522924ace5eb31dba0868bbd574",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-089/eeg/sub-089_task-thermalactive_stim.json"
+    },
+    {
+      "path": "sub-089/eeg/sub-089_task-thermalactive_stim.tsv.gz",
+      "bytes": 239958,
+      "snapshot_blob_sha": "d3c627c5e89c6609ee0a5c0715d367836e4d59d6",
+      "sha256": "ef3a204bf2f62bb71fd5222016ff2cd31504af25f61e145f5e64cba1fac06a69",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-089/eeg/sub-089_task-thermalactive_stim.tsv.gz"
+    },
+    {
+      "path": "sub-092/eeg/sub-092_task-audioactive_channels.tsv",
+      "bytes": 1828,
+      "snapshot_blob_sha": "91ce8f27a03874613ee8682060b51c1c5de2841f",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-092/eeg/sub-092_task-audioactive_channels.tsv"
+    },
+    {
+      "path": "sub-092/eeg/sub-092_task-audioactive_eeg.eeg",
+      "bytes": 137200280,
+      "snapshot_blob_sha": "9bc9b43a7529ad2f0aa7fd6a7e0a80d12caded27",
+      "sha256": "0da37c091bbb49d7515623d93e1900a8e5789dc819599ed1cb4b0175768328bb",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-092/eeg/sub-092_task-audioactive_eeg.eeg"
+    },
+    {
+      "path": "sub-092/eeg/sub-092_task-audioactive_eeg.json",
+      "bytes": 716,
+      "snapshot_blob_sha": "2cd615496fb8585d391b74e20ebbac6decf11b6f",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-092/eeg/sub-092_task-audioactive_eeg.json"
+    },
+    {
+      "path": "sub-092/eeg/sub-092_task-audioactive_eeg.vhdr",
+      "bytes": 2496,
+      "snapshot_blob_sha": "319732115225d8ddcfddcf485e2ce0d8fbbc7616",
+      "sha256": "5fa596189d654d8dbca044116bdde76470e3152d22863936ad7384b6756b04b1",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-092/eeg/sub-092_task-audioactive_eeg.vhdr"
+    },
+    {
+      "path": "sub-092/eeg/sub-092_task-audioactive_eeg.vmrk",
+      "bytes": 871,
+      "snapshot_blob_sha": "9a8cd0c1a81f15511245a2bd406d5cdf661055b3",
+      "sha256": "4ff2c0f5f4978c7f46ef194ba3522adc8c38d0b25a2f3d9371b846528c35034d",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-092/eeg/sub-092_task-audioactive_eeg.vmrk"
+    },
+    {
+      "path": "sub-092/eeg/sub-092_task-audioactive_events.tsv",
+      "bytes": 468,
+      "snapshot_blob_sha": "e07bc044be791656ad6399389fb29576a116e220",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-092/eeg/sub-092_task-audioactive_events.tsv"
+    },
+    {
+      "path": "sub-092/eeg/sub-092_task-audioactive_stim.json",
+      "bytes": 123,
+      "snapshot_blob_sha": "82a800ef346ce522924ace5eb31dba0868bbd574",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-092/eeg/sub-092_task-audioactive_stim.json"
+    },
+    {
+      "path": "sub-092/eeg/sub-092_task-audioactive_stim.tsv.gz",
+      "bytes": 262141,
+      "snapshot_blob_sha": "e2ca048ffd3c4dc21c97131d081d1da93dd982f4",
+      "sha256": "c5c245d079f149f543adf59aef8244c0d6859319820befa6b8e9568e1caa3d08",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-092/eeg/sub-092_task-audioactive_stim.tsv.gz"
+    },
+    {
+      "path": "sub-092/eeg/sub-092_task-restingopen_channels.tsv",
+      "bytes": 1712,
+      "snapshot_blob_sha": "e25fb9548ac0d5f74d9c1facf873bda5b3fae863",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-092/eeg/sub-092_task-restingopen_channels.tsv"
+    },
+    {
+      "path": "sub-092/eeg/sub-092_task-restingopen_eeg.eeg",
+      "bytes": 84000560,
+      "snapshot_blob_sha": "2e711b830db37974c61944cae3ab1ab1a756f44c",
+      "sha256": "d9301e24e00d837a5820b3212dfc0e66ac679083fd2de414ff69be94a5a1e60d",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-092/eeg/sub-092_task-restingopen_eeg.eeg"
+    },
+    {
+      "path": "sub-092/eeg/sub-092_task-restingopen_eeg.json",
+      "bytes": 662,
+      "snapshot_blob_sha": "b35eb37f64b32944b093398a5c7c482f49d72c60",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-092/eeg/sub-092_task-restingopen_eeg.json"
+    },
+    {
+      "path": "sub-092/eeg/sub-092_task-restingopen_eeg.vhdr",
+      "bytes": 2496,
+      "snapshot_blob_sha": "e9b49202687f42da4c4e08750f70f1a9f3ab4270",
+      "sha256": "53f3ddc3ac1799a265c95310ea17ab57fdd0b31a64e8ee865c0612f73cb6fbf8",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-092/eeg/sub-092_task-restingopen_eeg.vhdr"
+    },
+    {
+      "path": "sub-092/eeg/sub-092_task-restingopen_eeg.vmrk",
+      "bytes": 594,
+      "snapshot_blob_sha": "eebf9738dce134b9ae0599a93ad9d87c533285fc",
+      "sha256": "7d58666f7076e331028401f4d53dce5c204783444b5ea34aebd7a4aeb09cfd3a",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-092/eeg/sub-092_task-restingopen_eeg.vmrk"
+    },
+    {
+      "path": "sub-092/eeg/sub-092_task-restingopen_events.tsv",
+      "bytes": 97,
+      "snapshot_blob_sha": "5c718692d498d5d873a966576705d48234680b64",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-092/eeg/sub-092_task-restingopen_events.tsv"
+    },
+    {
+      "path": "sub-092/eeg/sub-092_task-thermalactive_channels.tsv",
+      "bytes": 1770,
+      "snapshot_blob_sha": "f087fad0c541dd41575d8692c62804fd67ee797a",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-092/eeg/sub-092_task-thermalactive_channels.tsv"
+    },
+    {
+      "path": "sub-092/eeg/sub-092_task-thermalactive_eeg.eeg",
+      "bytes": 140000280,
+      "snapshot_blob_sha": "b9d65b5b893543fb701912cc36d405cc396bb394",
+      "sha256": "cdfc83afe5fed59e8dc76857925187ab02ef2e73218632c5327e6ada3835bb20",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-092/eeg/sub-092_task-thermalactive_eeg.eeg"
+    },
+    {
+      "path": "sub-092/eeg/sub-092_task-thermalactive_eeg.json",
+      "bytes": 722,
+      "snapshot_blob_sha": "c736569bf095223c89a7f972844a30737b471413",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-092/eeg/sub-092_task-thermalactive_eeg.json"
+    },
+    {
+      "path": "sub-092/eeg/sub-092_task-thermalactive_eeg.vhdr",
+      "bytes": 2500,
+      "snapshot_blob_sha": "b7c4dfa6f602099f12f1fe7990a0c5bdae0fb8b6",
+      "sha256": "8a250588b3f204dad5ecc717606c1d4cdaa4d433a5ffe2be4b99db63f8a8f865",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-092/eeg/sub-092_task-thermalactive_eeg.vhdr"
+    },
+    {
+      "path": "sub-092/eeg/sub-092_task-thermalactive_eeg.vmrk",
+      "bytes": 873,
+      "snapshot_blob_sha": "2062c74cd55d558b76d3acbfdedfc4f4863b486e",
+      "sha256": "8e09473d285541f097f01a70260b29cc32ce50cc5070becba87fad368afb9491",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-092/eeg/sub-092_task-thermalactive_eeg.vmrk"
+    },
+    {
+      "path": "sub-092/eeg/sub-092_task-thermalactive_events.tsv",
+      "bytes": 705,
+      "snapshot_blob_sha": "bd015c1aa762c61bc45d6156c7e0ee515e19e73c",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-092/eeg/sub-092_task-thermalactive_events.tsv"
+    },
+    {
+      "path": "sub-092/eeg/sub-092_task-thermalactive_stim.json",
+      "bytes": 123,
+      "snapshot_blob_sha": "82a800ef346ce522924ace5eb31dba0868bbd574",
+      "sha256": null,
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds008349/2.0.1/sub-092/eeg/sub-092_task-thermalactive_stim.json"
+    },
+    {
+      "path": "sub-092/eeg/sub-092_task-thermalactive_stim.tsv.gz",
+      "bytes": 269393,
+      "snapshot_blob_sha": "1ddcaab1a6d658148db2601336cfc7a57210658f",
+      "sha256": "c5b95d6b19c63a54076d3926f7795de323758562feb7d86367ba8a9a095a1ea9",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds008349/sub-092/eeg/sub-092_task-thermalactive_stim.tsv.gz"
+    }
+  ]
+}

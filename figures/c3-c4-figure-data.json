@@ -1,0 +1,642 @@
+{
+  "dataset": "OpenNeuro ds008349 v2.0.1",
+  "notebook": "confirmatory-c3-c4-alpha.ipynb",
+  "notebook_sha256": "8bdc7017846a5890a97bfc6e4cb5fcbeae0153d96c63755836bce4018cef4046",
+  "flow": {
+    "verified": 59,
+    "passing_block": 44,
+    "matched": 31,
+    "no_passing_block": 15,
+    "no_matched_repeat": 13
+  },
+  "participant_quality": [
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 4.444444444444445,
+      "Eye seconds pass": 100.0
+    },
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 62.22222222222222,
+      "Eye seconds pass": 32.22222222222222
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 53.333333333333336,
+      "Eye seconds pass": 66.66666666666666
+    },
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 51.11111111111111,
+      "Eye seconds pass": 32.22222222222222
+    },
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 43.333333333333336,
+      "Eye seconds pass": 28.888888888888886
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 38.88888888888889,
+      "Eye seconds pass": 74.44444444444444
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 68.88888888888889,
+      "Eye seconds pass": 58.88888888888889
+    },
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 42.22222222222222,
+      "Eye seconds pass": 10.0
+    },
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 13.333333333333334,
+      "Eye seconds pass": 17.77777777777778
+    },
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 37.77777777777778,
+      "Eye seconds pass": 62.22222222222222
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 98.88888888888889,
+      "Eye seconds pass": 97.77777777777777
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 93.33333333333333,
+      "Eye seconds pass": 76.66666666666667
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 78.88888888888889,
+      "Eye seconds pass": 75.55555555555556
+    },
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 54.44444444444444,
+      "Eye seconds pass": 44.44444444444444
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 77.77777777777779,
+      "Eye seconds pass": 65.55555555555556
+    },
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 47.77777777777778,
+      "Eye seconds pass": 16.666666666666664
+    },
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 45.55555555555556,
+      "Eye seconds pass": 13.333333333333334
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 78.88888888888889,
+      "Eye seconds pass": 56.666666666666664
+    },
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 66.66666666666666,
+      "Eye seconds pass": 0.0
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 90.0,
+      "Eye seconds pass": 78.88888888888889
+    },
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 41.11111111111111,
+      "Eye seconds pass": 43.333333333333336
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 100.0,
+      "Eye seconds pass": 96.66666666666667
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 93.33333333333333,
+      "Eye seconds pass": 91.11111111111111
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 95.55555555555556,
+      "Eye seconds pass": 86.66666666666667
+    },
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 45.55555555555556,
+      "Eye seconds pass": 26.666666666666668
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 96.66666666666667,
+      "Eye seconds pass": 92.22222222222223
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 87.77777777777777,
+      "Eye seconds pass": 74.44444444444444
+    },
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 0.0,
+      "Eye seconds pass": 51.11111111111111
+    },
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 87.77777777777777,
+      "Eye seconds pass": 23.333333333333332
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 66.66666666666666,
+      "Eye seconds pass": 42.22222222222222
+    },
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 95.55555555555556,
+      "Eye seconds pass": 43.333333333333336
+    },
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 91.11111111111111,
+      "Eye seconds pass": 18.88888888888889
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 72.22222222222221,
+      "Eye seconds pass": 52.22222222222223
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 41.11111111111111,
+      "Eye seconds pass": 84.44444444444444
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 92.22222222222223,
+      "Eye seconds pass": 61.111111111111114
+    },
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 28.888888888888886,
+      "Eye seconds pass": 25.555555555555554
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 84.44444444444444,
+      "Eye seconds pass": 85.55555555555556
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 98.88888888888889,
+      "Eye seconds pass": 71.11111111111111
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 74.44444444444444,
+      "Eye seconds pass": 82.22222222222221
+    },
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 23.333333333333332,
+      "Eye seconds pass": 13.333333333333334
+    },
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 26.666666666666668,
+      "Eye seconds pass": 40.0
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 86.66666666666667,
+      "Eye seconds pass": 56.666666666666664
+    },
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 42.22222222222222,
+      "Eye seconds pass": 67.77777777777779
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 74.44444444444444,
+      "Eye seconds pass": 72.22222222222221
+    },
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 44.44444444444444,
+      "Eye seconds pass": 41.11111111111111
+    },
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 27.77777777777778,
+      "Eye seconds pass": 4.444444444444445
+    },
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 36.666666666666664,
+      "Eye seconds pass": 22.22222222222222
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 78.88888888888889,
+      "Eye seconds pass": 75.55555555555556
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 88.88888888888889,
+      "Eye seconds pass": 83.33333333333334
+    },
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 11.11111111111111,
+      "Eye seconds pass": 31.11111111111111
+    },
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 10.0,
+      "Eye seconds pass": 7.777777777777778
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 58.88888888888889,
+      "Eye seconds pass": 94.44444444444444
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 97.77777777777777,
+      "Eye seconds pass": 92.22222222222223
+    },
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 83.33333333333334,
+      "Eye seconds pass": 57.77777777777777
+    },
+    {
+      "Group": "Did not contribute",
+      "Scalp seconds pass after omissions": 18.88888888888889,
+      "Eye seconds pass": 25.555555555555554
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 94.44444444444444,
+      "Eye seconds pass": 71.11111111111111
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 63.33333333333333,
+      "Eye seconds pass": 65.55555555555556
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 97.77777777777777,
+      "Eye seconds pass": 85.55555555555556
+    },
+    {
+      "Group": "Contributed",
+      "Scalp seconds pass after omissions": 91.11111111111111,
+      "Eye seconds pass": 60.0
+    }
+  ],
+  "locked_partial_residuals": {
+    "adjusted_rating": [
+      59.53407171513652,
+      -15.001552878747574,
+      20.26902821158988,
+      25.67607056576759,
+      -38.22274484977639,
+      -44.57936802314776,
+      25.490220182618692,
+      102.92347572962211,
+      10.8972625367964,
+      -79.3739368068037,
+      -26.018040094548677,
+      -80.64131679644028,
+      -56.23300497890461,
+      -59.68712025589229,
+      6.897262536796401,
+      76.23665917871071,
+      -56.74386819594784,
+      83.82778497551192,
+      -49.80055999417657,
+      -30.465928284863477,
+      63.67607056576759,
+      37.203151876480135,
+      24.94301709139668,
+      -9.869863062096456,
+      21.33487120816599,
+      36.978248034794625,
+      42.7114121536475,
+      -118.32484089866671,
+      -37.8806340277405,
+      22.572520879961164,
+      -26.465928284863477,
+      6.897262536796401,
+      43.0154672076819,
+      -8.407444109034271,
+      8.16420906242549,
+      18.96192489444676,
+      -33.4439368208052,
+      -59.35817605211894,
+      5.932604124676313,
+      -21.68712025589229,
+      -22.713333448718004,
+      8.626063193196305,
+      84.42434384750895,
+      94.94301709139668,
+      24.90894496687473,
+      -38.22274484977639,
+      -49.80055999417657,
+      20.26902821158988,
+      -21.68712025589229,
+      -20.32392943423241,
+      11.0154672076819,
+      -47.57565615249106,
+      -5.869863062096457,
+      74.1127677727029,
+      -40.24385540066848,
+      -82.50977981738131,
+      18.755263686165335,
+      -62.297667336554966,
+      -71.40065463669828,
+      -50.796848123519865,
+      -45.83579093757451,
+      2.5725208799611643,
+      -29.88632076286282,
+      -48.24294393623419,
+      13.49022018261869,
+      -48.46592828486348,
+      -5.102737463203599,
+      53.0154672076819,
+      16.424343847508943,
+      -22.6145989665457,
+      -36.64867109106765,
+      10.26902821158988,
+      12.118454507825213,
+      -32.9845327923181,
+      -4.509779817381309,
+      -41.730971788410116,
+      25.33964647885402,
+      75.42063197685223,
+      82.26902821158988,
+      31.534071715136523,
+      61.67607056576759,
+      39.79427523665309,
+      -23.575656152491057,
+      15.3854010334543,
+      41.35132890893235,
+      -39.4439368208052,
+      -55.80055999417657,
+      15.49022018261869,
+      40.45487859473878,
+      8.711412153647501,
+      -0.4926461147580632,
+      -13.965060166976649,
+      -9.782811010002483,
+      6.572520879961164,
+      61.33487120816599,
+      12.535864092737,
+      -31.054988538536747,
+      15.49022018261869,
+      -56.46592828486348,
+      -61.54512140526122,
+      4.573083265624277,
+      -51.83579093757451,
+      12.199440005823433,
+      82.23665917871071,
+      21.203151876480135,
+      -6.6145989665456995,
+      -25.427479120038836,
+      -9.779449443284477,
+      -18.914880645627036,
+      8.312879744107711,
+      30.06501884803604,
+      29.0154672076819,
+      14.370908187719774,
+      -0.6145989665456995,
+      60.978248034794625,
+      13.714470825740506,
+      52.5560631791948,
+      35.755263686165335,
+      -39.88154549217479,
+      -66.9845327923181,
+      -72.79684812351987,
+      -111.83579093757452,
+      -36.64867109106765,
+      3.9326041246763133,
+      -61.57474468805677,
+      -14.61368750211141,
+      49.35132890893235,
+      -36.909223691355386,
+      -38.22274484977639,
+      -47.80055999417657,
+      22.26902821158988,
+      -44.46592828486348,
+      -33.102737463203596,
+      21.0154672076819,
+      17.981048441017034,
+      -63.05789437303761,
+      -78.64867109106764,
+      99.20315187648013,
+      61.358683203559714,
+      -34.2597228087992
+    ],
+    "adjusted_log_alpha": [
+      -0.05234108674323265,
+      0.41948196441419605,
+      0.2429337795537135,
+      -0.1537449773960879,
+      -0.015760192321035593,
+      0.24127054889563548,
+      0.3768385435711795,
+      -0.7485482375411227,
+      -0.9131561975228242,
+      -0.39138943906580065,
+      0.5174716522877247,
+      0.10921873661765977,
+      -0.7720340174207695,
+      0.1542875049527088,
+      -0.11710138454888629,
+      -0.32289344108750584,
+      0.46216898418460645,
+      -0.28002286556144884,
+      0.10477786716759271,
+      0.2374334857726103,
+      0.79027008093614,
+      0.10058551356897606,
+      -0.3668440604172676,
+      -0.06458290116318985,
+      -0.43854957206315615,
+      -1.3775891652161287,
+      -0.878024512258733,
+      -0.5322548071936373,
+      -0.5764831401810782,
+      -0.08604229272009825,
+      0.2693884279018283,
+      0.263989085479086,
+      -0.13147654272487816,
+      0.4706589271589441,
+      0.3803977630036565,
+      -0.2830407966990255,
+      -0.02347189468187927,
+      0.8130091696218887,
+      0.9716439883090182,
+      -0.6129926872253161,
+      0.6921249480710673,
+      1.0640053100503661,
+      -0.008172175484198768,
+      -0.10898074122991022,
+      0.2454374529377031,
+      -0.4549021309323517,
+      -0.4638105235932559,
+      0.11379295480250576,
+      -0.30936001401476976,
+      0.7828170340519003,
+      0.9200952928461432,
+      -0.2828717631857081,
+      -0.025413185700344537,
+      0.34711220803916476,
+      0.291612795281772,
+      0.2257167955534307,
+      -0.006649020177879397,
+      0.012285182273870238,
+      -0.049557308539231515,
+      0.47469747788996064,
+      0.6301721743469479,
+      0.21714084641208786,
+      0.3961777936112685,
+      -0.011883328675202559,
+      -0.3007046787574881,
+      0.16842080328389125,
+      0.4948858387059469,
+      0.2039678278460303,
+      -0.27471283702729654,
+      -0.3035428395179959,
+      0.08439526675264067,
+      -0.3053346468573518,
+      -0.2347878398316121,
+      -0.2333026275582935,
+      -0.004954249022210394,
+      -0.17835169996538072,
+      0.23622793239364237,
+      0.3137283687035225,
+      -0.05175768321135213,
+      0.22636419618718584,
+      -0.18548578363019438,
+      -0.3014937336027693,
+      0.3482493304550571,
+      -0.39293672108623456,
+      -0.7364132399864234,
+      -0.5780822561548071,
+      -0.7680956853467409,
+      -0.07220357364812205,
+      -0.2807403152023319,
+      0.30975161312955135,
+      -0.1481924244399872,
+      0.17434701923647497,
+      -0.5788045756093176,
+      -0.7134306839283445,
+      -0.29625057953952016,
+      0.3241075537798028,
+      0.1698320358597985,
+      0.3874838833202346,
+      0.6501260693873342,
+      0.3857765981487232,
+      0.1314668945487008,
+      0.1820888141286191,
+      -0.5996082025465657,
+      -0.3560017305207008,
+      -0.05003859995697535,
+      0.22058975134411116,
+      0.28968016762010174,
+      -0.5580425441363185,
+      -0.237514131049019,
+      -1.6599035654158452,
+      0.8294166047337352,
+      1.9535349944848301,
+      -0.37124742524168286,
+      -0.22335812983554648,
+      0.583451041561778,
+      -0.35842169691559334,
+      0.49522972444127455,
+      0.02243914570727444,
+      0.17676763018983652,
+      0.05904728828699696,
+      -0.3246988301913398,
+      -0.3773271162516638,
+      -0.4581947513677429,
+      0.17904403141460118,
+      -1.6362563814265008,
+      0.8143609045145442,
+      2.524575289209975,
+      0.19105452393997008,
+      -0.5210701898399108,
+      0.80611374903737,
+      1.1836585085325406,
+      0.40363677919842905,
+      -0.1553145856244836,
+      -0.7888095073916841,
+      -0.31644267994278463,
+      -0.9045196343525307,
+      -0.23265933300638825,
+      0.7324825708935115,
+      0.27168924964257124,
+      -0.16404597350617406
+    ]
+  },
+  "models": [
+    {
+      "Analysis": "Primary \u00b7 100 \u00b5V eye limit",
+      "Participants": 31,
+      "Pairs": 140,
+      "Log effect": 0.016037893672202,
+      "Log CI low": -0.014545001930586,
+      "Log CI high": 0.041269212447042,
+      "Percent effect": 1.616719098296922,
+      "Percent CI low": -1.443973438025934,
+      "Percent CI high": 4.21326228579511,
+      "Two-sided p": 0.2624,
+      "Valid bootstrap draws": 9999
+    },
+    {
+      "Analysis": "With eye correction",
+      "Participants": 50,
+      "Pairs": 312,
+      "Log effect": 0.001309137800066,
+      "Log CI low": -0.01151973861795,
+      "Log CI high": 0.013450069052338,
+      "Percent effect": 0.130999509502049,
+      "Percent CI low": -1.145364048358035,
+      "Percent CI high": 1.35409281277201,
+      "Two-sided p": 0.775,
+      "Valid bootstrap draws": 9999
+    },
+    {
+      "Analysis": "With eye correction, original participants",
+      "Participants": 31,
+      "Pairs": 227,
+      "Log effect": -0.005707662193539,
+      "Log CI low": -0.019685139965808,
+      "Log CI high": 0.009623211467046,
+      "Percent effect": -0.569140443565135,
+      "Percent CI low": -1.949265271345263,
+      "Percent CI high": 0.966966345270708,
+      "Two-sided p": 0.4702,
+      "Valid bootstrap draws": 9999
+    }
+  ],
+  "correction_validation": {
+    "gained_participants": 19,
+    "validated_recordings": 56,
+    "median_frontal_rms_before": 12.228077304113652,
+    "median_frontal_rms_after": 2.0365382541343386
+  }
+}
